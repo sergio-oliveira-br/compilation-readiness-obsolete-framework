@@ -1,0 +1,41 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--< [0;36mcom.github.sergiooliveirabr:compilation-readiness-obsolete-framework[0;1m >--[m
+[[1;34mINFO[m] [1mBuilding compilation-readiness-obsolete-framework 1.0-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.2.0:clean[m [1m(default-clean)[m @ [36mcompilation-readiness-obsolete-framework[0;1m ---[m
+[[1;34mINFO[m] Deleting /home/ubuntu/compilation-readiness-obsolete-framework/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.2.0:resources[m [1m(default-resources)[m @ [36mcompilation-readiness-obsolete-framework[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered properties files.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/ubuntu/compilation-readiness-obsolete-framework/src/main/resources
+[[1;34mINFO[m] skip non existing resourceDirectory /home/ubuntu/compilation-readiness-obsolete-framework/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.10.1:compile[m [1m(default-compile)[m @ [36mcompilation-readiness-obsolete-framework[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 1 source file to /home/ubuntu/compilation-readiness-obsolete-framework/target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.2.0:testResources[m [1m(default-testResources)[m @ [36mcompilation-readiness-obsolete-framework[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered properties files.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/ubuntu/compilation-readiness-obsolete-framework/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.10.1:testCompile[m [1m(default-testCompile)[m @ [36mcompilation-readiness-obsolete-framework[0;1m ---[m
+[[1;34mINFO[m] No sources to compile
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.22.2:test[m [1m(default-test)[m @ [36mcompilation-readiness-obsolete-framework[0;1m ---[m
+[[1;34mINFO[m] No tests to run.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:3.2.2:jar[m [1m(default-jar)[m @ [36mcompilation-readiness-obsolete-framework[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/ubuntu/compilation-readiness-obsolete-framework/target/compilation-readiness-obsolete-framework-1.0-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mspring-boot-maven-plugin:2.7.18:repackage[m [1m(repackage)[m @ [36mcompilation-readiness-obsolete-framework[0;1m ---[m
+[[1;34mINFO[m] Replacing main artifact with repackaged archive
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  2.607 s
+[[1;34mINFO[m] Finished at: 2026-07-22T23:17:04Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m

@@ -1,0 +1,47 @@
+Starting Obsolete Framework (Spring Boot 2.7.18)
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::               (v2.7.18)
+
+23:26:42.991 [main] INFO org.springframework.boot.SpringApplication - Starting application using Java 21.0.11 on ip-172-31-28-146 with PID 21953 (started by ubuntu in /home/ubuntu/compilation-readiness-obsolete-framework)
+23:26:42.992 [main] DEBUG org.springframework.boot.SpringApplication - Running with Spring Boot v2.7.18, Spring v5.3.31
+23:26:42.992 [main] INFO org.springframework.boot.SpringApplication - No active profile set, falling back to 1 default profile: "default"
+23:26:42.992 [main] DEBUG org.springframework.boot.SpringApplication - Loading source class com.github.sergiooliveirabr.Main
+23:26:42.992 [main] DEBUG org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2d7a0051
+23:26:42.992 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+23:26:42.992 [main] WARN org.springframework.context.annotation.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor': Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.context.annotation.ConfigurationClassPostProcessor]: No default constructor found; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.ConfigurationClassPostProcessor.<init>()
+23:26:42.992 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor': Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.context.annotation.ConfigurationClassPostProcessor]: No default constructor found; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.ConfigurationClassPostProcessor.<init>()
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1232)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:106)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:756)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:572)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:409)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1289)
+	at com.github.sergiooliveirabr.Main.main(Main.java:13)
+	at java.base@21.0.11/java.lang.invoke.LambdaForm$DMH/sa346b79c.invokeStaticInit(LambdaForm$DMH)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.context.annotation.ConfigurationClassPostProcessor]: No default constructor found; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.ConfigurationClassPostProcessor.<init>()
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:83)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1326)
+	... 17 common frames omitted
+Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotation.ConfigurationClassPostProcessor.<init>()
+	at java.base@21.0.11/java.lang.Class.checkMethod(DynamicHub.java:1078)
+	at java.base@21.0.11/java.lang.Class.getConstructor0(DynamicHub.java:1241)
+	at java.base@21.0.11/java.lang.Class.getDeclaredConstructor(DynamicHub.java:2932)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:78)
+	... 18 common frames omitted

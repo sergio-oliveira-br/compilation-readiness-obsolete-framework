@@ -1,0 +1,136 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--< [0;36mcom.github.sergiooliveirabr:compilation-readiness-obsolete-framework[0;1m >--[m
+[[1;34mINFO[m] [1mBuilding compilation-readiness-obsolete-framework 1.0-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mnative-maven-plugin:0.10.2:compile[m [1m(default-cli)[0;1m > [0;1mpackage[m @ [36mcompilation-readiness-obsolete-framework[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.2.0:resources[m [1m(default-resources)[m @ [36mcompilation-readiness-obsolete-framework[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered properties files.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/ubuntu/compilation-readiness-obsolete-framework/src/main/resources
+[[1;34mINFO[m] skip non existing resourceDirectory /home/ubuntu/compilation-readiness-obsolete-framework/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.10.1:compile[m [1m(default-compile)[m @ [36mcompilation-readiness-obsolete-framework[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.2.0:testResources[m [1m(default-testResources)[m @ [36mcompilation-readiness-obsolete-framework[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered properties files.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/ubuntu/compilation-readiness-obsolete-framework/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.10.1:testCompile[m [1m(default-testCompile)[m @ [36mcompilation-readiness-obsolete-framework[0;1m ---[m
+[[1;34mINFO[m] No sources to compile
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.22.2:test[m [1m(default-test)[m @ [36mcompilation-readiness-obsolete-framework[0;1m ---[m
+[[1;34mINFO[m] No tests to run.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:3.2.2:jar[m [1m(default-jar)[m @ [36mcompilation-readiness-obsolete-framework[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mspring-boot-maven-plugin:2.7.18:repackage[m [1m(repackage)[m @ [36mcompilation-readiness-obsolete-framework[0;1m ---[m
+[[1;34mINFO[m] Replacing main artifact with repackaged archive
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mnative-maven-plugin:0.10.2:compile[m [1m(default-cli)[0;1m < [0;1mpackage[m @ [36mcompilation-readiness-obsolete-framework[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mnative-maven-plugin:0.10.2:compile[m [1m(default-cli)[m @ [36mcompilation-readiness-obsolete-framework[0;1m ---[m
+[[1;34mINFO[m] Found GraalVM installation from JAVA_HOME variable.
+[[1;34mINFO[m] Downloaded GraalVM reachability metadata repository from file:/home/ubuntu/.m2/repository/org/graalvm/buildtools/graalvm-reachability-metadata/0.10.2/graalvm-reachability-metadata-0.10.2-repository.zip
+[[1;34mINFO[m] [graalvm reachability metadata repository for ch.qos.logback:logback-classic:1.2.12]: Configuration directory is ch.qos.logback/logback-classic/1.2.11
+[[1;34mINFO[m] [graalvm reachability metadata repository for com.fasterxml.jackson.core:jackson-databind:2.13.5]: Configuration directory not found. Trying latest version.
+[[1;34mINFO[m] [graalvm reachability metadata repository for com.fasterxml.jackson.core:jackson-databind:2.13.5]: Configuration directory is com.fasterxml.jackson.core/jackson-databind/2.15.2
+[[1;34mINFO[m] [graalvm reachability metadata repository for org.apache.tomcat.embed:tomcat-embed-core:9.0.83]: Configuration directory not found. Trying latest version.
+[[1;34mINFO[m] [graalvm reachability metadata repository for org.apache.tomcat.embed:tomcat-embed-core:9.0.83]: Configuration directory is org.apache.tomcat.embed/tomcat-embed-core/10.0.20
+[[1;34mINFO[m] Executing: /home/ubuntu/.sdkman/candidates/java/21.0.11-graal/bin/native-image -cp /home/ubuntu/compilation-readiness-obsolete-framework/target/classes:/home/ubuntu/.m2/repository/org/springframework/boot/spring-boot-starter-web/2.7.18/spring-boot-starter-web-2.7.18.jar:/home/ubuntu/.m2/repository/org/springframework/boot/spring-boot-starter/2.7.18/spring-boot-starter-2.7.18.jar:/home/ubuntu/.m2/repository/org/springframework/boot/spring-boot/2.7.18/spring-boot-2.7.18.jar:/home/ubuntu/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.7.18/spring-boot-autoconfigure-2.7.18.jar:/home/ubuntu/.m2/repository/org/springframework/boot/spring-boot-starter-logging/2.7.18/spring-boot-starter-logging-2.7.18.jar:/home/ubuntu/.m2/repository/ch/qos/logback/logback-classic/1.2.12/logback-classic-1.2.12.jar:/home/ubuntu/.m2/repository/ch/qos/logback/logback-core/1.2.12/logback-core-1.2.12.jar:/home/ubuntu/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/home/ubuntu/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.17.2/log4j-to-slf4j-2.17.2.jar:/home/ubuntu/.m2/repository/org/apache/logging/log4j/log4j-api/2.17.2/log4j-api-2.17.2.jar:/home/ubuntu/.m2/repository/org/slf4j/jul-to-slf4j/1.7.36/jul-to-slf4j-1.7.36.jar:/home/ubuntu/.m2/repository/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5.jar:/home/ubuntu/.m2/repository/org/springframework/spring-core/5.3.31/spring-core-5.3.31.jar:/home/ubuntu/.m2/repository/org/springframework/spring-jcl/5.3.31/spring-jcl-5.3.31.jar:/home/ubuntu/.m2/repository/org/yaml/snakeyaml/1.30/snakeyaml-1.30.jar:/home/ubuntu/.m2/repository/org/springframework/boot/spring-boot-starter-json/2.7.18/spring-boot-starter-json-2.7.18.jar:/home/ubuntu/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.5/jackson-databind-2.13.5.jar:/home/ubuntu/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.5/jackson-annotations-2.13.5.jar:/home/ubuntu/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.5/jackson-core-2.13.5.jar:/home/ubuntu/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.13.5/jackson-datatype-jdk8-2.13.5.jar:/home/ubuntu/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.13.5/jackson-datatype-jsr310-2.13.5.jar:/home/ubuntu/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.13.5/jackson-module-parameter-names-2.13.5.jar:/home/ubuntu/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/2.7.18/spring-boot-starter-tomcat-2.7.18.jar:/home/ubuntu/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.83/tomcat-embed-core-9.0.83.jar:/home/ubuntu/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/9.0.83/tomcat-embed-el-9.0.83.jar:/home/ubuntu/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.83/tomcat-embed-websocket-9.0.83.jar:/home/ubuntu/.m2/repository/org/springframework/spring-web/5.3.31/spring-web-5.3.31.jar:/home/ubuntu/.m2/repository/org/springframework/spring-beans/5.3.31/spring-beans-5.3.31.jar:/home/ubuntu/.m2/repository/org/springframework/spring-webmvc/5.3.31/spring-webmvc-5.3.31.jar:/home/ubuntu/.m2/repository/org/springframework/spring-aop/5.3.31/spring-aop-5.3.31.jar:/home/ubuntu/.m2/repository/org/springframework/spring-context/5.3.31/spring-context-5.3.31.jar:/home/ubuntu/.m2/repository/org/springframework/spring-expression/5.3.31/spring-expression-5.3.31.jar --no-fallback -o /home/ubuntu/compilation-readiness-obsolete-framework/target/compilation-readiness-obsolete-framework -H:ConfigurationFileDirectories=/home/ubuntu/compilation-readiness-obsolete-framework/target/graalvm-reachability-metadata/b99c920775e22a56bd49d96b0aeaacec95b16a20/ch.qos.logback/logback-classic/1.2.11,/home/ubuntu/compilation-readiness-obsolete-framework/target/graalvm-reachability-metadata/b99c920775e22a56bd49d96b0aeaacec95b16a20/com.fasterxml.jackson.core/jackson-databind/2.15.2,/home/ubuntu/compilation-readiness-obsolete-framework/target/graalvm-reachability-metadata/b99c920775e22a56bd49d96b0aeaacec95b16a20/org.apache.tomcat.embed/tomcat-embed-core/10.0.20 com.github.sergiooliveirabr.Main
+Warning: The option '-H:ResourceConfigurationResources=META-INF/native-image/org.apache.tomcat.embed/tomcat-embed-core/tomcat-resource.json' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+Warning: The option '-H:ReflectionConfigurationResources=META-INF/native-image/org.apache.tomcat.embed/tomcat-embed-core/tomcat-reflection.json' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+Warning: The option '-H:ReflectionConfigurationResources=META-INF/native-image/org.apache.tomcat.embed/tomcat-embed-websocket/tomcat-reflection.json' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+Warning: The option '-H:ReflectionConfigurationResources=META-INF/native-image/org.apache.tomcat.embed/tomcat-embed-el/tomcat-reflection.json' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+Warning: The option '-H:ResourceConfigurationResources=META-INF/native-image/org.apache.tomcat.embed/tomcat-embed-el/tomcat-resource.json' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+Warning: The option '-H:ResourceConfigurationResources=META-INF/native-image/org.apache.tomcat.embed/tomcat-embed-websocket/tomcat-resource.json' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+Warning: Please re-evaluate whether any experimental option is required, and either remove or unlock it. The build output lists all active experimental options, including where they come from and possible alternatives. If you think an experimental option should be considered as stable, please file an issue.
+========================================================================================================================
+GraalVM Native Image: Generating 'compilation-readiness-obsolete-framework' (executable)...
+========================================================================================================================
+For detailed information and explanations on the build output, visit:
+https://github.com/oracle/graal/blob/master/docs/reference-manual/native-image/BuildOutput.md
+------------------------------------------------------------------------------------------------------------------------
+[1/8] Initializing...                                                                                    (8.9s @ 0.13GB)
+ Java version: 21.0.11+9-LTS, vendor version: Oracle GraalVM 21.0.11+9.1
+ Graal compiler: optimization level: 2, target machine: x86-64-v3, PGO: ML-inferred
+ C compiler: gcc (linux, x86_64, 13.3.0)
+ Garbage collector: Serial GC (max heap size: 80% of RAM)
+ 1 user-specific feature(s):
+ - com.oracle.svm.thirdparty.gson.GsonFeature
+------------------------------------------------------------------------------------------------------------------------
+ 2 experimental option(s) unlocked:
+ - '-H:ResourceConfigurationResources' (origin(s): 'META-INF/native-image/org.apache.tomcat.embed/tomcat-embed-core/native-image.properties' in 'file:///home/ubuntu/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.83/tomcat-embed-core-9.0.83.jar', 'META-INF/native-image/org.apache.tomcat.embed/tomcat-embed-el/native-image.properties' in 'file:///home/ubuntu/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/9.0.83/tomcat-embed-el-9.0.83.jar', 'META-INF/native-image/org.apache.tomcat.embed/tomcat-embed-websocket/native-image.properties' in 'file:///home/ubuntu/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.83/tomcat-embed-websocket-9.0.83.jar')
+ - '-H:ReflectionConfigurationResources' (origin(s): 'META-INF/native-image/org.apache.tomcat.embed/tomcat-embed-core/native-image.properties' in 'file:///home/ubuntu/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.83/tomcat-embed-core-9.0.83.jar', 'META-INF/native-image/org.apache.tomcat.embed/tomcat-embed-el/native-image.properties' in 'file:///home/ubuntu/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/9.0.83/tomcat-embed-el-9.0.83.jar', 'META-INF/native-image/org.apache.tomcat.embed/tomcat-embed-websocket/native-image.properties' in 'file:///home/ubuntu/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.83/tomcat-embed-websocket-9.0.83.jar')
+------------------------------------------------------------------------------------------------------------------------
+Build resources:
+ - 9.19GB of memory (59.6% of 15.42GB system memory, determined at start)
+ - 4 thread(s) (100.0% of 4 available processor(s), determined at start)
+[2/8] Performing analysis...  [******]                                                                  (98.9s @ 1.62GB)
+   12,570 reachable types   (85.5% of   14,696 total)
+   20,931 reachable fields  (61.5% of   34,055 total)
+   66,295 reachable methods (60.7% of  109,238 total)
+    3,968 types,   260 fields, and 3,071 methods registered for reflection
+       61 types,    60 fields, and    55 methods registered for JNI access
+        4 native libraries: dl, pthread, rt, z
+[3/8] Building universe...                                                                              (11.2s @ 1.85GB)
+[4/8] Parsing methods...      [******]                                                                  (37.0s @ 1.86GB)
+[5/8] Inlining methods...     [***]                                                                      (5.2s @ 2.26GB)
+[6/8] Compiling methods...    [**************]                                                         (219.2s @ 1.47GB)
+[7/8] Laying out methods...   [****]                                                                    (12.4s @ 1.48GB)
+[8/8] Creating image...       [***]                                                                      (8.2s @ 1.68GB)
+  37.32MB (52.48%) for code area:    38,011 compilation units
+  27.81MB (39.11%) for image heap:  350,936 objects and 187 resources
+   5.98MB ( 8.42%) for other data
+  71.12MB in total
+------------------------------------------------------------------------------------------------------------------------
+Top 10 origins of code area:                                Top 10 object types in image heap:
+  15.33MB java.base                                           10.59MB byte[] for code metadata
+   4.41MB java.desktop                                         4.52MB byte[] for java.lang.String
+   4.00MB svm.jar (Native Image)                               2.54MB java.lang.String
+   3.59MB java.xml                                             2.18MB java.lang.Class
+   2.53MB tomcat-embed-core-9.0.83.jar                         2.05MB byte[] for general heap data
+   1.95MB spring-core-5.3.31.jar                             741.85kB byte[] for reflection metadata
+ 717.90kB spring-beans-5.3.31.jar                            589.22kB com.oracle.svm.core.hub.DynamicHubCompanion
+ 697.11kB java.management                                    440.28kB java.util.HashMap$Node
+ 517.48kB spring-expression-5.3.31.jar                       365.68kB java.lang.String[]
+ 474.03kB spring-boot-2.7.18.jar                             355.47kB c.o.svm.core.hub.DynamicHub$ReflectionMetadata
+   2.89MB for 36 more packages                                 3.50MB for 2600 more object types
+                              Use '-H:+BuildReport' to create a report with more details.
+------------------------------------------------------------------------------------------------------------------------
+Security report:
+ - Binary includes Java deserialization.
+ - Use '--enable-sbom' to embed a Software Bill of Materials (SBOM) in the binary.
+------------------------------------------------------------------------------------------------------------------------
+Recommendations:
+ G1GC: Use the G1 GC ('--gc=G1') for improved latency and throughput.
+ PGO:  Use Profile-Guided Optimizations ('--pgo') for improved throughput.
+ INIT: Adopt '--strict-image-heap' to prepare for the next GraalVM release.
+ AWT:  Use the tracing agent to collect metadata for AWT.
+ HEAP: Set max heap for improved and more predictable memory usage.
+------------------------------------------------------------------------------------------------------------------------
+                       32.8s (8.1% of total time) in 270 GCs | Peak RSS: 3.78GB | CPU load: 3.80
+------------------------------------------------------------------------------------------------------------------------
+Produced artifacts:
+ /home/ubuntu/compilation-readiness-obsolete-framework/target/compilation-readiness-obsolete-framework (executable)
+ /home/ubuntu/compilation-readiness-obsolete-framework/target/libawt.so (jdk_library)
+ /home/ubuntu/compilation-readiness-obsolete-framework/target/libawt_headless.so (jdk_library)
+ /home/ubuntu/compilation-readiness-obsolete-framework/target/libawt_xawt.so (jdk_library)
+ /home/ubuntu/compilation-readiness-obsolete-framework/target/libfontmanager.so (jdk_library)
+ /home/ubuntu/compilation-readiness-obsolete-framework/target/libjava.so (jdk_library_shim)
+ /home/ubuntu/compilation-readiness-obsolete-framework/target/libjavajpeg.so (jdk_library)
+ /home/ubuntu/compilation-readiness-obsolete-framework/target/libjvm.so (jdk_library_shim)
+ /home/ubuntu/compilation-readiness-obsolete-framework/target/liblcms.so (jdk_library)
+========================================================================================================================
+Finished generating 'compilation-readiness-obsolete-framework' in 6m 42s.
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  06:46 min
+[[1;34mINFO[m] Finished at: 2026-07-22T23:24:33Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
